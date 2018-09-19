@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:background="@drawable/background">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:text="Bencana"
+                android:textSize="35sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+            <ImageButton
+                android:id="@+id/btnWarning"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/textView"
+                android:layout_marginEnd="17dp"
+                android:src="@drawable/warning1"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:paddingTop="24dp"
+            android:layout_width="342dp"
+            android:layout_height="500dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/colorContent"
+            >
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="517dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/btnHome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="200dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
