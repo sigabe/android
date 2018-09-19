@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".DashboardActivity"></activity>
+=======
+        <activity android:name=".KategoriBencana">
+        </activity>
+
+>>>>>>> e28c4ae6cb64c59b467c1cfc8cefcb20fb34759a
     </application>
 
 </manifest>
