@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KategoriBencana">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:background="@drawable/background">
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="487dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorContent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="342dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="342dp"
+            android:layout_height="100dp"
+            android:background="@drawable/background">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="342dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="342dp"
+            android:layout_height="100dp"
+            android:background="@drawable/background">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="342dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark">
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
